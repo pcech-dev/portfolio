@@ -18,19 +18,28 @@
     <main>
         <section class="sec-nav">
             <input id="navbar-toggle-cbox" type="checkbox">
-            <label aria-controls="collapsable-navbar" for="navbar-toggle-cbox" type="button"><span class="navbar-toggler-icon"></span></label>
+            <label aria-controls="collapsable-navbar" for="navbar-toggle-cbox" type="button"><span
+                    class="navbar-toggler-icon"></span></label>
             <ul class="nav">
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+                <li><a href="https://www.linkedin.com/in/peter-cech/">LinkedIn</a></li>
+                <li><a href="https://github.com/pcech-dev">GitHub</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
             </ul>
         </section>
 
         <section class="about-me">
             <h3>In order to acquire the basic skills to become a developer,
-                I completed a law degree to learn logic and studied economics to become versed in math.</h3>
+                I completed a law degree to learn logic and studied economics to become versed in math. <br> <br>
+                I changed my career path in 2019. With the great support of my wife, who is a software developer, I
+                completed a bootcamp in coding.
+                Since then, I have been intensively focusing on web development, until this hobby turned into a
+                professional activity. <br> <br>
+                Apart from coding, I like understanding business models of various companies and reading books about
+                investing.</h3>
         </section>
 
-        <section class="technologies">
+        <section class="technologies" id="technologies">
             <h3 class="title">TECHNOLOGIES</h3>
             <div class="container">
                 <div>
@@ -52,21 +61,22 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h3 class="title">PORTFOLIO</h3>
             <h4 class="h4-portfolio">Quiz App</h4>
             <img src="quiz.png" alt="screenshot of my quiz programmed in JS and jQuery" class="img-portfolio">
-            <p class="p-portfolio">This quiz was created by using JS, specificaly jQuery as well as HTML and CSS. It consists from 
-                a starting page, seven questions of the quiz, following by a final 
-                score. When starting the quiz, the number of the particlar question and preliminary score are shown on 
-                top of the container. After answering the questions, depending on the score, the final page will 
-                display various sentences and pictures. jQuery was mainly used to (i) add event listeners, 
+            <p class="p-portfolio">This quiz was created by using JS, specificaly jQuery as well as HTML and CSS. It
+                consists from
+                a starting page, seven questions of the quiz, following by a final
+                score. When starting the quiz, the number of the particlar question and preliminary score are shown on
+                top of the container. After answering the questions, depending on the score, the final page will
+                display various sentences and pictures. jQuery was mainly used to (i) add event listeners,
                 (ii) show the right question by tracking its number and hide the other questions,
                 (iii) show and track the score to display the final score at the end, (iv) restart the quiz.</p>
         </section>
     </main>
     <footer>
-        <p class="p-footer">Contact: aaa@post.cz</p>
+        <p class="p-footer">Contact: <a href="mailto:aaa@post.cz">aaa@post.cz</a></p>
         <small>Copyright © 2019 Peter Čech. All rights reserved.</small>
     </footer>
 </body>

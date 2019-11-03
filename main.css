@@ -59,8 +59,15 @@ label {
 }
 
 #navbar-toggle-cbox:checked ~ .nav > li {
-    color: white;
     margin-bottom: 15px;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:active {
+    color: gold;
 }
 
 header {
@@ -127,6 +134,14 @@ img {
 
 .p-footer {
     margin: 0;
+}
+
+.p-footer a {
+    color: white;
+}
+
+.p-footer a:active {
+    color: gold;
 }
 
 small {
