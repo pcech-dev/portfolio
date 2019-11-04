@@ -64,6 +64,7 @@ label {
 
 .nav a {
     color: white;
+    text-decoration: none;
 }
 
 .nav a:active {
@@ -93,26 +94,29 @@ h1 {
 h2 {
     padding-top: 25px;
     padding-bottom: 25px;
+    font-size: 2.2rem;
 }
 
 h3 {
     text-align: center;
     margin: 40px;
+    font-size: 1.6rem;
 }
 
 h4 {
     text-align: center;
     margin-bottom: 0;
     font-weight: 100;
+    font-size: 1.2rem;
 }
 
 .h4-portfolio {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 .title {
-    font-size: 28px;
+    font-size: 2.2rem;
     margin-top: 120px;
 }
 
@@ -124,12 +128,14 @@ img {
 }
 
 .img-portfolio {
-    width: 320px;
+    width: 90%;
+    max-width: 100%;
 }
 
 .p-portfolio {
     margin: 20px 20px 40px;
     text-align: justify;
+    font-size: 1rem;
 }
 
 .p-footer {
@@ -162,11 +168,20 @@ footer {
     margin-top: 120px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 595px) {
     .nav {
         display: flex;
-        list-style-type: none;
         justify-content: space-evenly;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        display: none;
+    }
+
+    label {
+        display: none;
     }
 
     header {
@@ -174,8 +189,23 @@ footer {
         max-height: 800px;
     }
 
-    .container {
-        display: flex;
+    h1 {
+        padding-top: 20%;
+        font-size: 3rem;
     }
 
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .img-portfolio {
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    .p-portfolio {
+        margin: 20px 50px 40px;
+        text-align: justify;
+    }
 }
