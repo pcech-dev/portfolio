@@ -176,6 +176,11 @@ footer {
         padding: 0;
     }
 
+    .nav a:hover {
+        color: gold;
+        font-weight: bold;
+    }
+
     .navbar-toggler-icon {
         display: none;
     }
